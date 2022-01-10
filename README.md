@@ -19,3 +19,5 @@ Publications:
 
 - Ussar, S., Karlina, R., Lutter, D., Miok, V., Fischer, D., Altun, I., Schöttl, T., Schorpp, K., Israel, A., Cero, Cheryl., Johnson, J.W., Kapser-Fischer, I., Böttcher, A., Keipert, S., Feuchtinger, A., Graf, E., Strom, T., Walch, A., Lickert, H., Walzthoeni, T., Heinig, M., Theis, F.J., García-Cáceres, C., Cypess, A.M., Ussar, S. (2021). "[Identification and characterization of distinct murine brown adipocyte lineages](https://www.biorxiv.org/content/10.1101/2020.08.24.264416v1.abstract)". *bioRxiv*, 4(1).
 
+![image](https://user-images.githubusercontent.com/22052679/148747517-60266170-396b-43e2-82cd-a226077820dc.png)
+
