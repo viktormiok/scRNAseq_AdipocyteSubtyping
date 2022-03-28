@@ -133,9 +133,9 @@ def welch_anova(adata):
     for i in range(adata.n_vars):
         gen = adata.var.index[i]
 
-        aldh = ch[adata.obs['gfap_aldh']=='aldh_only',gen].X.toarray()
-        gfap = ch[adata.obs['gfap_aldh']=='gfap_only',gen].X.toarray()
-        both = adata[adata.obs['gfap_aldh']=='both',gen].X.toarray()
+        aldh = ch[adata.obs['gfap_aldh'] == 'aldh_only',gen].X.toarray()
+        gfap = ch[adata.obs['gfap_aldh'] == 'gfap_only',gen].X.toarray()
+        both = adata[adata.obs['gfap_aldh'] == 'both',gen].X.toarray()
         args = (aldh, gfap, both)
         xt = np.concatenate(args)
         xt = xt.ravel()
@@ -143,7 +143,7 @@ def welch_anova(adata):
         #create DataFrame
         df = pd.DataFrame({'score': xt,
                            'group': np.repeat(['aldh', 'gfap', 'both'],
-                                              repeats=[len(aldh),len(gfap),len(both)])}) 
+                                              repeats=[len(aldh), len(gfap), len(both)])}) 
 
         #perform Welch's ANOVA
         oall = pg.welch_anova(dv='score',
@@ -235,10 +235,14 @@ def plot_enrich(data, n_terms=20, save=False):
 
     sns.set(style="whitegrid")
 
-    path = plt.scatter(x='recall', y="name", c='p_value', cmap='cool', 
+    path = plt.scatter(x='recall',
+                       y="name",
+                       c='p_value',
+                       cmap='cool', 
                        norm=colors.LogNorm(min_pval, max_pval), 
                        data=data_to_plot, linewidth=1, edgecolor="grey", 
-                       s=[(i+10)**1.5 for i in data_to_plot['scaled.overlap']])
+                       s=[(i+10)**1.5 for i in data_to_plot['scaled.overlap']]
+    )
     ax = plt.gca()
     ax.invert_yaxis()
 
@@ -249,7 +253,10 @@ def plot_enrich(data, n_terms=20, save=False):
 
     # Shrink current axis by 20%
     box = ax.get_position()
-    ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+    ax.set_position([box.x0,
+                     box.y0,
+                     box.width * 0.8, box.height]
+    )
 
     # Get tick marks for this plot
     #Note: 6 ticks maximum
@@ -268,9 +275,17 @@ def plot_enrich(data, n_terms=20, save=False):
     #Colorbar
     fig = plt.gcf()
     cbaxes = fig.add_axes([0.8, 0.15, 0.03, 0.4])
-    cbar = ax.figure.colorbar(sm, ticks=ticks_vals, shrink=0.5, anchor=(0,0.1), cax=cbaxes)
+    cbar = ax.figure.colorbar(sm,
+                              ticks=ticks_vals,
+                              shrink=0.5,
+                              anchor=(0,0.1),
+                              cax=cbaxes
+    )
     cbar.ax.set_yticklabels(ticks_labs)
-    cbar.set_label("Adjusted p-value", fontsize=14, fontweight='bold')
+    cbar.set_label("Adjusted p-value",
+                   fontsize=14,
+                   fontweight='bold'
+    )
 
     #Size legend
     min_olap = data_to_plot['intersection_size'].min()
@@ -291,10 +306,21 @@ def plot_enrich(data, n_terms=20, save=False):
 
     labels = [str(int(i)) for i in size_leg_vals]
 
-    leg = plt.legend([l1, l2, l3, l4], labels, ncol=1, frameon=False, fontsize=12,
-                     handlelength=1, loc = 'center left', borderpad = 1, labelspacing = 1.4,
-                     handletextpad=2, title='Gene overlap', scatterpoints = 1,  bbox_to_anchor=(0.1, 1.5), 
-                     facecolor='black')
+    leg = plt.legend([l1, l2, l3, l4],
+                     labels,
+                     ncol=1,
+                     frameon=False,
+                     fontsize=12,
+                     handlelength=1,
+                     loc='center left',
+                     borderpad=1,
+                     labelspacing=1.4,
+                     handletextpad=2,
+                     title='Gene overlap',
+                     scatterpoints=1,
+                     bbox_to_anchor=(0.1, 1.5), 
+                     facecolor='black'
+    )
 
     if save:
         plt.savefig(save, dpi=300, format='pdf', bbox_inches="tight")
