@@ -14,9 +14,9 @@
 
 ## Overview
 
-Pathological changes in adipose tissue are a major underlying cause of systemic insulin resistance and the metabolic syndrome. However, due to an inability to identify and target dysfunctional adipocytes, the mechanisms underlying this functional impairment are unknown. Based on our previous work together with ongoing projects in the laboratory, we conclude that both white and brown adipose tissues are functionally and developmentally diverse and that differences between cell populations within these different depots can be detected at the cell surface. 
+Pathological changes in adipose tissue are a major underlying cause of systemic insulin resistance and metabolic syndrome. However, due to an inability to identify and target dysfunctional adipocytes, the mechanisms underlying this functional impairment are unknown. Based on our previous work together with ongoing projects in the laboratory, we conclude that both white and brown adipose tissues are functionally and developmentally diverse and that differences between cell populations within these different depots can be detected at the cell surface. 
 
-Thus, our primary objective is to identify individual cell populations and signaling pathways responsible for the initiation of local and subsequent systemic insulin resistance. 
+Thus, our primary objective is to identify individual cell populations and signaling pathways responsible for initiating local and subsequent systemic insulin resistance. 
 
 
 ## Implementation
@@ -26,18 +26,18 @@ Python pipeline for analysis and visualisatioin of scRNA-seq data from adolescen
 <img src="https://user-images.githubusercontent.com/22052679/148747517-60266170-396b-43e2-82cd-a226077820dc.png" align="top" height="700" width="600">
 
 ## Data and notebooks
-All the data and notebooks required for performing temporal integrative genomics analysis and publisch in the reference articles have been deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
-| Publicatioin     | GEO number | Noteboook |
+All the data and notebooks required for performing temporal integrative genomics analysis and publish in the reference articles have been deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
+| Publication     | GEO number | Notebook |
 | ------------- | ------------- | ------------- |
 | [Suwandhi et. al.](https://doi.org/10.1038/s41467-021-21826-9)  | [__`GSE164350`__](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4117045)  | [asc1_white_vs_beige_adipocyte_fate.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
 | [Karlina et. al.](https://www.life-science-alliance.org/content/4/1/e202000924)  | [__`GSE161447`__](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138079)  |[brown_adipocytes_subtypes.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/brown_adipocytes_subtypes.ipynb) |
 | [Yan et. al.](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)  | [__`GSE...`__]  |[adipocyte_scRNAseq_imuneCells.ipynb](https://github.com/viktormiok/scRNAseq_Adipocyte_ImmuneCells/blob/main/notebooks/adipocyte_scRNAseq_imuneCells.ipynb) |
 | Altun et. al.| [__`GSE...`__]  |[igf1_preadipocytes_full_analysis_v0_.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
 
-In order to access one of the data set for instance GSE164350 you need to run the code bellow. Unpacking the data requires tar and gunzip, which should already be available on most systems.
+In order to access one of the data set for instance GSE164350 you need to run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
 ```
-cd ../  #To get to the main github repo folder
+cd ../  #To get to the main GitHub repo folder
 mkdir -p data/tigaR_data_analysis/
 cd data/tigaR_data_analysis/
 wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE78nnn/GSE164350/suppl/GSE164350_RAW.tar
