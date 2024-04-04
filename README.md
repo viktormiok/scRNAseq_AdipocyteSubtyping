@@ -14,14 +14,14 @@
 
 ## Overview
 
-Pathological changes in adipose tissue are a major underlying cause of systemic insulin resistance and metabolic syndrome. However, due to an inability to identify and target dysfunctional adipocytes, the mechanisms underlying this functional impairment are unknown. Based on our previous work together with ongoing projects in the laboratory, we conclude that both white and brown adipose tissues are functionally and developmentally diverse and that differences between cell populations within these different depots can be detected at the cell surface. 
+Pathological changes in adipose tissue are a major underlying cause of systemic insulin resistance and metabolic syndrome. However, the mechanisms underlying this functional impairment are unknown due to an inability to identify and target dysfunctional adipocytes. Based on our previous work together with ongoing projects in the laboratory, we conclude that both white and brown adipose tissues are functionally and developmentally diverse and that differences between cell populations within these different depots can be detected at the cell surface. 
 
-Thus, our primary objective is to identify individual cell populations and signaling pathways responsible for initiating local and subsequent systemic insulin resistance. 
+Thus, our primary objective is identifying individual cell populations and signaling pathways responsible for initiating local and subsequent systemic insulin resistance. 
 
 
 ## Implementation
 
-Python pipeline for analysis and visualisatioin of scRNA-seq data from adolescent (2w) and adult (8w) mice of brown, perigonadal and subcutaneous adipose depots.
+Python pipeline for analysis and visualization of scRNA-seq data from adolescent (2w) and adult (8w) mice of brown, perigonadal, and subcutaneous adipose depots.
 
 <img src="https://user-images.githubusercontent.com/22052679/148747517-60266170-396b-43e2-82cd-a226077820dc.png" align="top" height="700" width="600">
 
@@ -34,7 +34,7 @@ All the data and notebooks required for performing temporal integrative genomics
 | [Yan et. al.](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)  | [__`GSE...`__]  |[adipocyte_scRNAseq_imuneCells.ipynb](https://github.com/viktormiok/scRNAseq_Adipocyte_ImmuneCells/blob/main/notebooks/adipocyte_scRNAseq_imuneCells.ipynb) |
 | Altun et. al.| [__`GSE...`__]  |[igf1_preadipocytes_full_analysis_v0_.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
 
-In order to access one of the data set for instance GSE164350 you need to run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
+To access one of the data sets for instance GSE164350 you need to run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
 ```
 cd ../  #To get to the main GitHub repo folder
@@ -48,7 +48,7 @@ gunzip GSE164350_RAW/*_Regional_*
 
 ## License
 
-__`scRNAseq_AdipocyteSubtyping`__ repository is distributed under the GPL-3.0 License. Please read the license before using information from the repository, which it is distributed in the `LICENSE` file.
+__`scRNAseq_AdipocyteSubtyping`__ repository is distributed under the GPL-3.0 License. Please read the license before using information from the repository distributed in the `LICENSE` file.
 
 # References
 
