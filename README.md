@@ -26,7 +26,7 @@ Python pipeline for analysis and visualization of scRNA-seq data from adolescent
 <img src="https://user-images.githubusercontent.com/22052679/148747517-60266170-396b-43e2-82cd-a226077820dc.png" align="top" height="700" width="600">
 
 ## Data and notebooks
-All the data and notebooks required for performing temporal integrative genomics analysis and publish in the reference articles have been deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
+All the data and notebooks required for performing temporal integrative genomics analysis and publishing in the reference articles have been deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO). They are accessible through the GEO Series accession numbers:
 | Publication     | GEO number | Notebook |
 | ------------- | ------------- | ------------- |
 | [Suwandhi et. al.](https://doi.org/10.1038/s41467-021-21826-9)  | [__`GSE164350`__](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4117045)  | [asc1_white_vs_beige_adipocyte_fate.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
