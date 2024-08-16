@@ -15,7 +15,6 @@
 ## Overview
 
 Pathological changes in adipose tissue are a major underlying cause of systemic insulin resistance and metabolic syndrome. However, the mechanisms underlying this functional impairment are unknown due to an inability to identify and target dysfunctional adipocytes. Based on our previous work and ongoing projects in the laboratory, we conclude that white and brown adipose tissues are functionally and developmentally diverse and that differences between cell populations within these different depots can be detected at the cell surface. 
-
 Thus, our primary objective is identifying individual cell populations and signaling pathways responsible for initiating local and subsequent systemic insulin resistance. 
 
 
