@@ -59,4 +59,5 @@ Publications:
 
 - Ussar, S., Karlina, R., Lutter, D., Miok, V., Fischer, D., Altun, I., Schöttl, T., Schorpp, K., Israel, A., Cero, Cheryl., Johnson, J.W., Kapser-Fischer, I., Böttcher, A., Keipert, S., Feuchtinger, A., Graf, E., Strom, T., Walch, A., Lickert, H., Walzthoeni, T., Heinig, M., Theis, F.J., García-Cáceres, C., Cypess, A.M., Ussar, S. (2021). "[Identification and characterization of distinct murine brown adipocyte lineages](https://www.biorxiv.org/content/10.1101/2020.08.24.264416v1.abstract)". *bioRxiv*, 4(1).
 
+- Yan, X., Miok, V., Karlina, R., Böttcher, A., Lutter, D., Lickert, H., Garcia Caceres, C., Ussar, S. (2023) "[ScRNAseq–Based Analysis of the Stromal Immune Cell Composition in Murine Preweaning and Adult White Adipose Tissues](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)", *Diabetes* 72 (Supplement_1), 1666-1666.
 
