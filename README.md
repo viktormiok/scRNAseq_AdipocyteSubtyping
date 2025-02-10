@@ -31,7 +31,7 @@ All the data and notebooks required for performing temporal integrative genomics
 | [Suwandhi et. al.](https://doi.org/10.1038/s41467-021-21826-9)  | [__`GSE164350`__](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4117045)  | [asc1_white_vs_beige_adipocyte_fate.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
 | [Karlina et. al.](https://www.life-science-alliance.org/content/4/1/e202000924)  | [__`GSE161447`__](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138079)  |[brown_adipocytes_subtypes.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/brown_adipocytes_subtypes.ipynb) |
 | [Yan et. al.](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)  | [__`GSE...`__]  |[adipocyte_scRNAseq_imuneCells.ipynb](https://github.com/viktormiok/scRNAseq_Adipocyte_ImmuneCells/blob/main/notebooks/adipocyte_scRNAseq_imuneCells.ipynb) |
-| Altun et. al.| [__`GSE...`__]  |[igf1_preadipocytes_full_analysis_v0_.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
+| [Altun et. al.](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)| [__`GSE...`__]  |[igf1_preadipocytes_full_analysis_v0_.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
 
 To access one of the data sets for instance GSE164350 you need to run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
