@@ -61,3 +61,5 @@ Publications:
 
 - Yan, X., Miok, V., Karlina, R., Böttcher, A., Lutter, D., Lickert, H., Garcia Caceres, C., Ussar, S. (2023) "[ScRNAseq–Based Analysis of the Stromal Immune Cell Composition in Murine Preweaning and Adult White Adipose Tissues](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)", *Diabetes* 72 (Supplement_1), 1666-1666.
 
+- Altun, I., Walia, S., Yan, X., Singh, I., Karlina R., Miok V., Kang L., Ho Diep Vo, K., Lutter, D., Perrochi, F., Ussar S. (2025)"[Igf2 regulates early postnatal DPP4+ preadipocyte pool expansion](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)". bioRxiv*, 5(1).
+
