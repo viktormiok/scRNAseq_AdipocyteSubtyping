@@ -15,7 +15,7 @@
 ## Overview
 
 Pathological changes in adipose tissue are a major underlying cause of systemic insulin resistance and metabolic syndrome. However, the mechanisms underlying this functional impairment are unknown due to an inability to identify and target dysfunctional adipocytes. Based on our previous work and ongoing projects in the laboratory, we conclude that white and brown adipose tissues are functionally and developmentally diverse and that differences between cell populations within these different depots can be detected at the cell surface. 
-Thus, our primary objective is to identify individual cell populations and signaling pathways responsible for initiating local and subsequent systemic insulin resistance. 
+Thus, our primary objective is identifying individual cell populations and signaling pathways responsible for initiating local and subsequent systemic insulin resistance. 
 
 
 ## Implementation
@@ -33,7 +33,7 @@ All the data and notebooks required for performing temporal integrative genomics
 | [Yan et. al.](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)  | [__`GSE...`__]  |[adipocyte_scRNAseq_imuneCells.ipynb](https://github.com/viktormiok/scRNAseq_Adipocyte_ImmuneCells/blob/main/notebooks/adipocyte_scRNAseq_imuneCells.ipynb) |
 | [Altun et. al.](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)| [__`GSE...`__]  |[igf1_preadipocytes_full_analysis_v0_.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
 
-To access one of the data sets, for instance, GSE164350, you need to run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
+To access one of the data sets, for instance, GSE164350, you must run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
 ```
 cd ../  #To get to the main GitHub repo folder
