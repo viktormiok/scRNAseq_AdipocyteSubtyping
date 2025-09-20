@@ -35,7 +35,7 @@ All the data and notebooks required for performing temporal integrative genomics
 | [Yan et. al.](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)  | [__`GSE...`__]  |[adipocyte_scRNAseq_imuneCells.ipynb](https://github.com/viktormiok/scRNAseq_Adipocyte_ImmuneCells/blob/main/notebooks/adipocyte_scRNAseq_imuneCells.ipynb) |
 | [Altun et. al.](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)| [__`GSE...`__]  |[igf1_preadipocytes_full_analysis_v0_.ipynb](https://github.com/viktormiok/scRNAseq_AdipocyteSubtyping/blob/main/notebooks/asc1_white_vs_beige_adipocyte_fate.ipynb) |
 
-To access one of the data sets, for instance, GSE164350, you must run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
+To access one of the data sets, for instance, GSE164350, you must run the code below. Unpacking the data requires the tar and gunzip utilities, which should already be available on most systems.
 
 ```
 cd ../  #To get to the main GitHub repo folder
@@ -63,5 +63,5 @@ Publications:
 
 - Yan, X., **Miok, V.**, Karlina, R., Böttcher, A., Lutter, D., Lickert, H., Garcia Caceres, C., Ussar, S. (2023) "[ScRNAseq–Based Analysis of the Stromal Immune Cell Composition in Murine Preweaning and Adult White Adipose Tissues](https://diabetesjournals.org/diabetes/article/72/Supplement_1/1666-P/150177)", *Diabetes* 72 (Supplement_1), 1666-1666.
 
-- Altun, I., Walia, S., Yan, X., Singh, I., Karlina R., **Miok V.**, Kang L., Ho Diep Vo, K., Lutter, D., Perrochi, F., Ussar S. (2025)"[Igf2 regulates early postnatal DPP4+ preadipocyte pool expansion](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)". bioRxiv*, 5(1).
+- Altun, I., Walia, S., Yan, X., Singh, I., Karlina R., **Miok V.**, Kang L., Ho Diep Vo, K., Lutter, D., Perrochi, F., Ussar S. (2025)"[Igf2 regulates early postnatal DPP4+ preadipocyte pool expansion](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)". *Genes & Development*, 5(1).
 
