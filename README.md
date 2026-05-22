@@ -51,7 +51,7 @@ gunzip GSE164350_RAW/*_Regional_*
 
 __`scRNAseq_AdipocyteSubtyping`__ repository is distributed under the GPL-3.0 License. Please read the license before using information from the repository distributed in the `LICENSE` file.
 
-# References
+## References
 
 Publications:
 
