@@ -59,7 +59,7 @@ Publications:
 
 - Karlina, R., Lutter, D., **Miok, V.**, Fischer, D., Altun, I., Schöttl, T., Schorpp, K., Israel, A., Cero, C., Johnson, J.W., Kapser-Fischer, I., Böttcher, A., Keipert, S., Feuchtinger, A., Graf, E., Strom, T., Walch, A., Lickert, H., Walzthoeni, T., Heinig, M., Theis, F.J., García-Cáceres, C., Cypess, A.M., Ussar, S. (2021). "[Identification and characterization of distinct brown adipocyte subtypes in C57BL/6J mice](https://www.life-science-alliance.org/content/4/1/e202000924)". *Life science alliance*, 4(1).
 
-- Altun, I., Walia, S., Yan, X., Singh, I., Karlina R., **Miok V.**, Kang L., Ho Diep Vo, K., Lutter, D., Perrochi, F., Ussar S. (2025)"[Igf2 regulates early postnatal DPP4+ preadipocyte pool expansion](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)". *Genes & Development*, 5(1).
+- Altun, I., Walia, S., Yan, X., Singh, I., Karlina R., **Miok V.**, Kang L., Ho Diep Vo, K., Lutter, D., Perrochi, F., Ussar S. (2025). "[Igf2 regulates early postnatal DPP4+ preadipocyte pool expansion](https://www.biorxiv.org/content/10.1101/2025.02.08.637214v1)". *Genes & Development*, 5(1).
   
 - Ussar, S., Karlina, R., Lutter, D., **Miok, V.**, Fischer, D., Altun, I., Schöttl, T., Schorpp, K., Israel, A., Cero, C., Johnson, J.W., Kapser-Fischer, I., Böttcher, A., Keipert, S., Feuchtinger, A., Graf, E., Strom, T., Walch, A., Lickert, H., Walzthoeni, T., Heinig, M., Theis, F.J., García-Cáceres, C., Cypess, A.M., Ussar, S. (2021). "[Identification and characterization of distinct murine brown adipocyte lineages](https://www.biorxiv.org/content/10.1101/2020.08.24.264416v1.abstract)". *bioRxiv*, 4(1).
 
